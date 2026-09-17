@@ -1,0 +1,83 @@
+{
+  "status": "saved_results_and_provenance_checked",
+  "replayed": false,
+  "checked_at_utc": "2026-09-17T23:51:10.570086+00:00",
+  "jobs": [
+    {
+      "script": "profile.py",
+      "report": "profiles.json",
+      "status": "diagnostic_only",
+      "report_sha256": "5819c81787c37064fbc5d7ca43d05a18185f916a21b7a7e8c4cdbc99dba05070"
+    },
+    {
+      "script": "certify_infinite.py",
+      "report": "infinite_certificate.json",
+      "status": "passed",
+      "report_sha256": "3ad987b31b61a65f07faabda836fd5bab36584841a5e4d87857088bfa1e11db4"
+    },
+    {
+      "script": "certify_first_tail.py",
+      "report": "first_tail_certificate.json",
+      "status": "passed",
+      "report_sha256": "94fd2f4a47da6c11d0be5c24c8e8e32a64496589e07ac0f53450534fc6e6f303"
+    },
+    {
+      "script": "finite_diagnostic.py",
+      "report": "finite_diagnostic.json",
+      "status": "passed",
+      "report_sha256": "08aff85579cfb48b7b0f608dfbd7ae3abd17742f2f9071eb3f88d13d408d6739"
+    },
+    {
+      "script": "saddle_diagnostic.py",
+      "report": "saddle_diagnostic.json",
+      "status": "diagnostic_completed",
+      "report_sha256": "a5fcc8157acdf0f0ae4e8683b8f8b28f7ccc96404bd98748d06a371f8a9233ba"
+    },
+    {
+      "script": "endpoint_diagnostic.py",
+      "report": "endpoint_diagnostic.json",
+      "status": "diagnostic_completed",
+      "report_sha256": "f8199cf1846872fe27ff54710e0df2ba3ae6de54feafbacf8701071858a2f3c7"
+    }
+  ],
+  "dependency_reports": {
+    "berkovich-dhar-six/results/dependencies/localization_certificate.json": "d874a439b6d916cecf7a8c186a9caabed26c3f381dd822f136ac8642d7af0a15",
+    "berkovich-dhar-six/results/dependencies/resonant_gap_certificate.json": "4d103247cf1da3007f8c6de999fd06bdbcc2071cc974338ae8a408fc5a852beb",
+    "berkovich-dhar-six/results/dependencies/profile_certificate.json": "325444b22088278071bf2ce711c40dc8766116ee02f11ed1007c4bc9969347f9",
+    "berkovich-dhar-six/results/dependencies/scalar_certificate.json": "37510bfa7354f19f51b15e00bf291c7a42c1f68672af8b857cc941b9f8424255"
+  },
+  "input_sha256": {
+    "berkovich-dhar-six/AUDIT.md": "30b7873c4c950f0b7c6a1caa3b96aff23b9ac601764f95932feb439a39aed8f4",
+    "berkovich-dhar-six/INFINITE_SIGNS.md": "389a418c8f9b9b66741f196faa61b70764339ea276d9c83dadd9894f7904d951",
+    "berkovich-dhar-six/MOD3_RESULT.md": "1f37b9d80db286278daf5918b51ddbca27c14e7cc19f5367401c9aefb3525ad4",
+    "berkovich-dhar-six/MOD5_COMPACT.md": "038d1f4db071e676ec7545e98891cb140907cf3bfb616c595ca8a6eac792f451",
+    "berkovich-dhar-six/MOD5_ENDPOINT.md": "7ed5b4f4d076101c2021cbda60f489d959a6b6a961fe7220058ba9b63083a461",
+    "berkovich-dhar-six/MOD5_FIRST_TAIL.md": "4249bf6c71f2b41301d1916b4a6809b25eb1f18e9d4a15250c5c72986b9c39e4",
+    "berkovich-dhar-six/MOD5_RESULT.md": "6ba20631b90119da538fdbe5c68290bba8b834dcaf5eb3d1a3378e0f8ed43fc7",
+    "berkovich-dhar-six/README.md": "b83ce26c59ec4ec612a151c846e10555ee960e4de32bcd1cdfa797dbffb9c886",
+    "berkovich-dhar-six/certify_first_tail.py": "7aa28248014377eb0d5bc0fccde50f4b4e7be64bcff1ab527063cc5c0e3bc9c6",
+    "berkovich-dhar-six/certify_infinite.py": "83d7aaebb563f57554107be33de6d3926d49805265b04a52adb63292e9203b43",
+    "berkovich-dhar-six/endpoint_diagnostic.py": "e794b68df218c4f028c45ef4bac755c342a012ac763e0b86bfb815444fc4e5b5",
+    "berkovich-dhar-six/finite_diagnostic.py": "d1cc9f8b6317b93ec07217cc8ffcd0061924756d1ed24096ecc141214154a61f",
+    "berkovich-dhar-six/profile.py": "e052e5112015da11ae1905c76ec9d2584bc5fc962dbe2b586ec28f14510868e7",
+    "berkovich-dhar-six/saddle_diagnostic.py": "9b06f445680411f1bd1f3d2f51b54c8778e1da2bbb170e747dfd5927a9832d9c",
+    "berkovich-dhar-six/verify.py": "fd1692ee8be980cd051813682898ac80ec888c3c3cc502a5e9444f589dba3cab",
+    "quartic/COMPACT_PROOF.md": "67e6f2d4615ee418b023aded569356d06727a9b6b020e448fdd48054a3c416b4",
+    "quartic/ENDPOINT_PROOF.md": "ac26c036815b891c24f5ff0bbf69faf097529f478716db0474748da2176c624a",
+    "quartic/INFINITE_SIGNS.md": "1ed4fdfdf3692adf4fd606cf1b468592a9b67d5c28c9609fa1be10586abe3af4",
+    "quartic/certify_endpoint_constants.py": "ed3e109480f4ef09eba1cb677983ea075366fb583178391d58c2f8121ff992d0",
+    "quartic/certify_infinite.py": "562c2e99ec657d2de85526dc458a0989c5c6c8d772339ef74a2e046f2cb89cd2",
+    "quartic/results/endpoint_certificate.json": "bf28913ec381a1ac2511adaf8cab6ff81ed1278c3dafee4bd6f2050ad946960a",
+    "quartic/results/infinite_certificate.json": "fc4f4da1986d6dfd1bb4012cd237686300c92c48c28dcebfd5d03a6151b6e856",
+    "third-borwein-mod5/manuscript.md": "a142efb6b60df247d6499cf25c28d9be6af4f549b2b2d327a06f13085a585470",
+    "third-borwein-mod5/verification/certify_localization.py": "abcc35b8fa22c1b92cca45c6f8b7612db22bb8edd316d33c2f11a28fd65c48f2",
+    "third-borwein-mod5/verification/certify_profiles.py": "93a26dcfbe21627e0f53d0e15ddd9b6490d505ae1395b92e5875d4e46c7a310c",
+    "third-borwein-mod5/verification/certify_resonant_gap.py": "3445bc31b262623422f7afff2482a698aa7e878bdf532ee747301661728c4841",
+    "third-borwein-mod5/verification/certify_scalars.py": "bf85b68044446b7cdfce60d67570bdabc718899de40964fa79bd97f69102aca9",
+    "third-borwein-mod5/verification/common.py": "38ffef38f4af326561a20b64ddadf33987a3a27541c9362bba5217e69245e4d6",
+    "third-borwein-mod5/verification/parameters.py": "38cf5d497f0a27a9f9de8fcee8fb36c9d3fd95d60dd1838ff1157437d6de14f8"
+  },
+  "saddle_sample_count": 96,
+  "largest_sample_n3_residual": 0.2952457641592043,
+  "limitation": "Hashes and computations do not mechanically verify the written analytic arguments; external report source hashes are frozen here for reproduction."
+}

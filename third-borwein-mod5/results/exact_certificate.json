@@ -1,0 +1,1888 @@
+{
+  "kind": "exact integer verification",
+  "implementation": "reconstructed_20260908",
+  "python": "3.12.14",
+  "mpmath": "1.3.0",
+  "numpy": "2.3.5",
+  "status": "passed",
+  "series_degree": 350,
+  "RR_identity_t_values": [
+    1,
+    2,
+    3,
+    4,
+    9
+  ],
+  "five_dissection_q_degree": 1754,
+  "max_n": 256,
+  "coefficients_checked": 56252416,
+  "d_first": [
+    1,
+    0,
+    1,
+    2,
+    3,
+    3,
+    5,
+    6,
+    10,
+    13,
+    18,
+    22,
+    31,
+    37,
+    50,
+    63,
+    82,
+    101
+  ],
+  "scope": "All coefficients for every 1<=n<=max_n; no extrapolation.",
+  "finite_rows": [
+    {
+      "n": 1,
+      "degree": 10,
+      "zeros": 4,
+      "coefficients_sha256_decimal_lines": "5407c41196031e05efa28bff15e14f0e41444730009bcbe304188dd48235f75b",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 2,
+      "degree": 40,
+      "zeros": 14,
+      "coefficients_sha256_decimal_lines": "3642ddfc9fa96bfd8544e7c3555e2ffb08ec5f7d4a36f2efef2b9c86a86c5643",
+      "modular_cross_checks": [
+        {
+          "prime": 1000000007,
+          "evaluation_at_2": 409643779
+        },
+        {
+          "prime": 1000000009,
+          "evaluation_at_2": 409643123
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "degree": 90,
+      "zeros": 18,
+      "coefficients_sha256_decimal_lines": "c59d507abb7dc9b32b10cf70b039b6ee101a1088598f9ab66104964d89e849d0",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 4,
+      "degree": 160,
+      "zeros": 22,
+      "coefficients_sha256_decimal_lines": "5321321d421c64dcf2a30c992e96d976e602204e71cc9909742aca2f80971ad1",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 5,
+      "degree": 250,
+      "zeros": 26,
+      "coefficients_sha256_decimal_lines": "03f6cc4e17b48ff16edfadb5eedef53d03d6f9a0e73a445e1e23de1695c3565d",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 6,
+      "degree": 360,
+      "zeros": 30,
+      "coefficients_sha256_decimal_lines": "6a23e825cda3a8840d6e80f8686afcfe88ac2a4c4243ec37f016825c83ea7df1",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 7,
+      "degree": 490,
+      "zeros": 34,
+      "coefficients_sha256_decimal_lines": "681a3de65c54e4dbc9cc3982925b8127873cacfc314794988045ae5978eb1051",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 8,
+      "degree": 640,
+      "zeros": 38,
+      "coefficients_sha256_decimal_lines": "6a55491193013ad3959bda2e688bba9698d927334a3bf2b99073453359784432",
+      "modular_cross_checks": [
+        {
+          "prime": 1000000007,
+          "evaluation_at_2": 118945139
+        },
+        {
+          "prime": 1000000009,
+          "evaluation_at_2": 579525106
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "degree": 810,
+      "zeros": 42,
+      "coefficients_sha256_decimal_lines": "918a9783c6fabde6b3ba3155f9113a65de2f7910573b4dd526b5f5fb55547ae2",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 10,
+      "degree": 1000,
+      "zeros": 46,
+      "coefficients_sha256_decimal_lines": "e79a064a8586d59bae20cb3ace3732b85870f5ae1a012b54e21047f85bed6091",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 11,
+      "degree": 1210,
+      "zeros": 50,
+      "coefficients_sha256_decimal_lines": "ea5d82036b174085e161f813bf4d01a44c312a869eadebdb55e53171ae533e4c",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 12,
+      "degree": 1440,
+      "zeros": 54,
+      "coefficients_sha256_decimal_lines": "4ee9f346e0e0188ad7c5634c1bf9f6317bf48cef11cc2a7f4d04c3f8c7b27ba7",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 13,
+      "degree": 1690,
+      "zeros": 58,
+      "coefficients_sha256_decimal_lines": "f7ba2359374160c2a76fae1da5b501b37cc0d637bbf840c18a882caef57714a2",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 14,
+      "degree": 1960,
+      "zeros": 62,
+      "coefficients_sha256_decimal_lines": "2ab45038e4874bb06f4da725715d6656decdd52d725d87c0c48d941b1d630fc8",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 15,
+      "degree": 2250,
+      "zeros": 66,
+      "coefficients_sha256_decimal_lines": "495fce0797202d9ca1242a4269e67e4e0d2a3d617cce43a012852be8c4a85ef4",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 16,
+      "degree": 2560,
+      "zeros": 70,
+      "coefficients_sha256_decimal_lines": "aa10bc390519adddda51e68a0b1e1bd99f2bd518f1d15bec97ea0d5a8cb48691",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 17,
+      "degree": 2890,
+      "zeros": 74,
+      "coefficients_sha256_decimal_lines": "e6a3f67340abb969489cfd7c236b4194e2485079e1ae0c2c36bea5da70a28249",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 18,
+      "degree": 3240,
+      "zeros": 78,
+      "coefficients_sha256_decimal_lines": "f790b501001f9652c92e1ca68d70869ffdc272ab258d33cc3620a9924585694c",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 19,
+      "degree": 3610,
+      "zeros": 82,
+      "coefficients_sha256_decimal_lines": "d4bd757fa205b68bc6e2e46068dd8b710f7ff25df63a7be53094240adb26ab01",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 20,
+      "degree": 4000,
+      "zeros": 86,
+      "coefficients_sha256_decimal_lines": "75bf6ceb88c99028fd2b6b15d58d74f9a769d48d0f0e050149f54e94bde10565",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 21,
+      "degree": 4410,
+      "zeros": 90,
+      "coefficients_sha256_decimal_lines": "24f9a4f3aeabff393c743ea26c3a1852c4016feba4c799d8c3564777585fd593",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 22,
+      "degree": 4840,
+      "zeros": 94,
+      "coefficients_sha256_decimal_lines": "7ff63182e939c1ba0f1c5b1563a57071f2c503717ab21300c11ab17b5ddbabca",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 23,
+      "degree": 5290,
+      "zeros": 98,
+      "coefficients_sha256_decimal_lines": "f6218586a5d9914cc8e825b8f008f86b0cd4b2fcf61df38882afee0afd83512f",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 24,
+      "degree": 5760,
+      "zeros": 102,
+      "coefficients_sha256_decimal_lines": "a5c7e9f928154f3ce536f272a60e2cbd69e16a5625bb72db28e5bc8e2e854219",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 25,
+      "degree": 6250,
+      "zeros": 106,
+      "coefficients_sha256_decimal_lines": "365f3dbec9f970963085f2de9aca8afc6983a9490166e88f0bc33b2ef2060809",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 26,
+      "degree": 6760,
+      "zeros": 110,
+      "coefficients_sha256_decimal_lines": "1f5bcff3eb7bbf2a3f8e804cbb657cfe0a280d1932aa79d6c03b80c2328fc660",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 27,
+      "degree": 7290,
+      "zeros": 114,
+      "coefficients_sha256_decimal_lines": "8c4984e180c0f9d3ea14a58fb676ab91cad248e65f0a40463f4b6483141ac286",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 28,
+      "degree": 7840,
+      "zeros": 118,
+      "coefficients_sha256_decimal_lines": "5826499941d01e2f04288eb5b379db6f7accc18d895340dd3d087d5aff4ca218",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 29,
+      "degree": 8410,
+      "zeros": 122,
+      "coefficients_sha256_decimal_lines": "ee0c02929c1dccf8ca3726d8ccb0970cd7e665889d76954ae25d28f5de38bf66",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 30,
+      "degree": 9000,
+      "zeros": 126,
+      "coefficients_sha256_decimal_lines": "be3e296756d2e6893b30f1aadea9c7f78ec531cb8ed8d2787a158c6c0b08d5c3",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 31,
+      "degree": 9610,
+      "zeros": 130,
+      "coefficients_sha256_decimal_lines": "d98f867e49b9299de94e908e1d1b4952c012477e19b692f5397e6be1416fef72",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 32,
+      "degree": 10240,
+      "zeros": 134,
+      "coefficients_sha256_decimal_lines": "3c3c82f13297bc3425fdb8ffe5caa9db4a24f78df9d95cb49e8e1a3014426200",
+      "modular_cross_checks": [
+        {
+          "prime": 1000000007,
+          "evaluation_at_2": 192501358
+        },
+        {
+          "prime": 1000000009,
+          "evaluation_at_2": 901900156
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "degree": 10890,
+      "zeros": 138,
+      "coefficients_sha256_decimal_lines": "26a0c2fe9356b635c1477ced0b085c30ec33691b439c67de8ae51ea786a0dd9d",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 34,
+      "degree": 11560,
+      "zeros": 142,
+      "coefficients_sha256_decimal_lines": "7340ceaddf40c51e86d8b9f20acf61f6ef613c25bb94ebac9959d8daae43b2f7",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 35,
+      "degree": 12250,
+      "zeros": 146,
+      "coefficients_sha256_decimal_lines": "d86bca7b625020c995a428eaaf207340cdcd4ff89d1f6e3839bce38ecd05ade4",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 36,
+      "degree": 12960,
+      "zeros": 150,
+      "coefficients_sha256_decimal_lines": "33cb7e2ddb4687b524b59a429f6aefa6ce44872b2716d1b31cb4846f36fb2858",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 37,
+      "degree": 13690,
+      "zeros": 154,
+      "coefficients_sha256_decimal_lines": "2bc5d4685644c12f636e76a21f508488ed06381adb1073a5cf62fbe1497ffc38",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 38,
+      "degree": 14440,
+      "zeros": 158,
+      "coefficients_sha256_decimal_lines": "6557b111e873f15c74548b114f661894a54f02500162a010bbe29e9515544c22",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 39,
+      "degree": 15210,
+      "zeros": 162,
+      "coefficients_sha256_decimal_lines": "cf56800e235bc47d389fa48e3b199355fff7819321692502f5336ae949165ce2",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 40,
+      "degree": 16000,
+      "zeros": 166,
+      "coefficients_sha256_decimal_lines": "4042ff95414137b9793390243f55dcacd4b67d4be50cf4168fabafb40635e060",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 41,
+      "degree": 16810,
+      "zeros": 170,
+      "coefficients_sha256_decimal_lines": "6dad9533acd05dc9f21f70ffd17adec96b3fa9e85da66148423ac9cbae0b610f",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 42,
+      "degree": 17640,
+      "zeros": 174,
+      "coefficients_sha256_decimal_lines": "23c3cd971e3a47e9175ace36b9205b5595025d6ab567e6954bae463cbb72c0a2",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 43,
+      "degree": 18490,
+      "zeros": 178,
+      "coefficients_sha256_decimal_lines": "2bdde7b86cc0d4234954180f57cdbb515aba031a25cb41f0e4b9177e1d1926b0",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 44,
+      "degree": 19360,
+      "zeros": 182,
+      "coefficients_sha256_decimal_lines": "d2bf92be68fc5fb488c578b3f09a1cb42b5bdb2e637ecaad302e8a238d98604d",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 45,
+      "degree": 20250,
+      "zeros": 186,
+      "coefficients_sha256_decimal_lines": "992f0b9895eb4cd5f2faf7c8e6fe44ad4f13e20d7c92254404d371c762cf8b8a",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 46,
+      "degree": 21160,
+      "zeros": 190,
+      "coefficients_sha256_decimal_lines": "d21593973dff6d8c154b2e6414ea9958e4430ab404774c32c20bf98a7a01edb1",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 47,
+      "degree": 22090,
+      "zeros": 194,
+      "coefficients_sha256_decimal_lines": "056856750307989718b4c020cabffa42ef420f37681b76ccf0d9c4fdecab34dd",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 48,
+      "degree": 23040,
+      "zeros": 198,
+      "coefficients_sha256_decimal_lines": "a6d76c394e11a3a0a29e598a4b65f42f80880f690d5d197751bb5938533d0089",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 49,
+      "degree": 24010,
+      "zeros": 202,
+      "coefficients_sha256_decimal_lines": "4979775871e9fb9a82b8922e25c6ea481532377e7915982c4875acf5bb0ee867",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 50,
+      "degree": 25000,
+      "zeros": 206,
+      "coefficients_sha256_decimal_lines": "cda36465ef307e76d651129cc176dcdbe875558000e2bc1766570dbab49e3caa",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 51,
+      "degree": 26010,
+      "zeros": 210,
+      "coefficients_sha256_decimal_lines": "d0fe83779f1861a34656d6c575809e7a7a896fa495c2f3fc02f0a752980f3bb7",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 52,
+      "degree": 27040,
+      "zeros": 214,
+      "coefficients_sha256_decimal_lines": "9b7c34af5c227ad5188f1ffe69e775ebd1326551cc30fc84107c85d7b9ea3c30",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 53,
+      "degree": 28090,
+      "zeros": 218,
+      "coefficients_sha256_decimal_lines": "836d17d6b01d140e3f264236008dbbd2fb17c01e9fd748d2719b116827fc93d7",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 54,
+      "degree": 29160,
+      "zeros": 222,
+      "coefficients_sha256_decimal_lines": "91d4906470cd34f1de9cab49f871a87398a1ad328f9f1c6767f5fba9b3918efd",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 55,
+      "degree": 30250,
+      "zeros": 226,
+      "coefficients_sha256_decimal_lines": "a69847c76cbc6651c8991d1b19c0802e9705a7c5f5ea25e43ba9f48c6b11b575",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 56,
+      "degree": 31360,
+      "zeros": 230,
+      "coefficients_sha256_decimal_lines": "8b2c33eac37f4d1a2ba8f4453af5e7a2bb241c475e345471b8a467a8f2f1d44b",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 57,
+      "degree": 32490,
+      "zeros": 234,
+      "coefficients_sha256_decimal_lines": "bed9efa98bdd6a7884bfe7f780d21644c1b2bd6e0711fdc0a55e96e4b20248e6",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 58,
+      "degree": 33640,
+      "zeros": 238,
+      "coefficients_sha256_decimal_lines": "6f84487ee86f4dd62936235f0eee4ab1e5f66b081981ca36b12e2224e588ee7a",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 59,
+      "degree": 34810,
+      "zeros": 242,
+      "coefficients_sha256_decimal_lines": "4aa58af4f424b19e99668bf6398de2d31b53c97bbb2e49fa4835e104a76f7be1",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 60,
+      "degree": 36000,
+      "zeros": 246,
+      "coefficients_sha256_decimal_lines": "2f628db30b911d07dd48a3a0d00d86de4705d15a98bd52affd93d0d89e4d38c8",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 61,
+      "degree": 37210,
+      "zeros": 250,
+      "coefficients_sha256_decimal_lines": "e89b8dca7efae1fca3e790a84fa842551352008824405b172e1bb1c54b8a9ab4",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 62,
+      "degree": 38440,
+      "zeros": 254,
+      "coefficients_sha256_decimal_lines": "8b55aef103ee672f5ea1094c99c45d8992fd9fba29ec7797562d76764e87af4c",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 63,
+      "degree": 39690,
+      "zeros": 258,
+      "coefficients_sha256_decimal_lines": "a5cb9f3bc7128c5996de29b29f67583a172826e90525397af69dc2a4fa90db9a",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 64,
+      "degree": 40960,
+      "zeros": 262,
+      "coefficients_sha256_decimal_lines": "f866368251753c2d31fae82425fcfc4c90769b035b05de367c0313205f06e8fd",
+      "modular_cross_checks": [
+        {
+          "prime": 1000000007,
+          "evaluation_at_2": 854964193
+        },
+        {
+          "prime": 1000000009,
+          "evaluation_at_2": 641841866
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "degree": 42250,
+      "zeros": 266,
+      "coefficients_sha256_decimal_lines": "2e31f784322bc0ee51995a6dc0039b405e8388b5c5a967e95096bf2a1c8c76bc",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 66,
+      "degree": 43560,
+      "zeros": 270,
+      "coefficients_sha256_decimal_lines": "224eb492e9b9f93cfcf0dac6934d1ea5bc8aa90d10523289156c6bb974752528",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 67,
+      "degree": 44890,
+      "zeros": 274,
+      "coefficients_sha256_decimal_lines": "f4f6a2e93331b9d38febda432f559fb800de4c40ac06406ae9f5d1667ca77809",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 68,
+      "degree": 46240,
+      "zeros": 278,
+      "coefficients_sha256_decimal_lines": "1cbc1c151963f5a1a646f3b11820c6e8140687c97ccd04585b73d51ceb9623ce",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 69,
+      "degree": 47610,
+      "zeros": 282,
+      "coefficients_sha256_decimal_lines": "d99406ef7e43d6f5249559809e4f2dc4d09d5e5f3b312d0da3548dc9188fd8e1",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 70,
+      "degree": 49000,
+      "zeros": 286,
+      "coefficients_sha256_decimal_lines": "e7189cc904e473d135ca312ef9a14cba12fd2f62c16eff28f45cf2a3fc30d0ab",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 71,
+      "degree": 50410,
+      "zeros": 290,
+      "coefficients_sha256_decimal_lines": "31fb01707b57d1fbced6768d747bf09f27f054c1de8a8615991a18d930b53b5b",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 72,
+      "degree": 51840,
+      "zeros": 294,
+      "coefficients_sha256_decimal_lines": "1a036166826d16a4bafce8a605fe0367eb7df1f1ed58bf068473626e848c5e92",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 73,
+      "degree": 53290,
+      "zeros": 298,
+      "coefficients_sha256_decimal_lines": "75406f108fc22268b82a87453acc93658336fb30eaf49a091648aa54921d94bc",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 74,
+      "degree": 54760,
+      "zeros": 302,
+      "coefficients_sha256_decimal_lines": "0e825d91185b74ab442d167588fb4438371b07df403fcd46ad884f29b671cf78",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 75,
+      "degree": 56250,
+      "zeros": 306,
+      "coefficients_sha256_decimal_lines": "b3d1adacc1ce634e83d4263b74723748f1c55a7819ca626192835e1bd5796be0",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 76,
+      "degree": 57760,
+      "zeros": 310,
+      "coefficients_sha256_decimal_lines": "64c23da3d3b36407a727c31e44661a06bcdd51ede280b752b890e44733668029",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 77,
+      "degree": 59290,
+      "zeros": 314,
+      "coefficients_sha256_decimal_lines": "e10538c1cde730c9c04aab2a91a7b2f5e550f79dbb9a853d3617c957706b2590",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 78,
+      "degree": 60840,
+      "zeros": 318,
+      "coefficients_sha256_decimal_lines": "0850444e418e155fe920f1383cc5f13f76d55b0e5b8c4b29bc0e71140a4e3ac6",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 79,
+      "degree": 62410,
+      "zeros": 322,
+      "coefficients_sha256_decimal_lines": "a744a344c7fc624087b3a57fcd636ecf97e10c67c28cd58561403ea7f7b0b98e",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 80,
+      "degree": 64000,
+      "zeros": 326,
+      "coefficients_sha256_decimal_lines": "bb741d34e77202358c95dc4202b2ca6d69e351f24c5d2b21c5d0f3f4b4dd664b",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 81,
+      "degree": 65610,
+      "zeros": 330,
+      "coefficients_sha256_decimal_lines": "c4fc76a48129ddec47924d7ff9c01a3dfa609002dac34eda82470ba5ca5f9e15",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 82,
+      "degree": 67240,
+      "zeros": 334,
+      "coefficients_sha256_decimal_lines": "f070748bd1ab443626c814515a63b7d2e884fa80ee0fabfdaf9494e159ec847c",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 83,
+      "degree": 68890,
+      "zeros": 338,
+      "coefficients_sha256_decimal_lines": "c23f1421765347bb375ad2457d54e119ee6797e7493f903e97be607f2ff900c6",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 84,
+      "degree": 70560,
+      "zeros": 342,
+      "coefficients_sha256_decimal_lines": "88604e77a7613ce6f1860baadbbf3cb786c3a171650e4f04b07c9f10f32dcc48",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 85,
+      "degree": 72250,
+      "zeros": 346,
+      "coefficients_sha256_decimal_lines": "7ae32fdaf45170d2f960587f8254ac96a827871da3b15be93fc00609e795c950",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 86,
+      "degree": 73960,
+      "zeros": 350,
+      "coefficients_sha256_decimal_lines": "99751660fc6661f71d34b7e72a7f0732e9e92d72926341eaebcd3190730e705e",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 87,
+      "degree": 75690,
+      "zeros": 354,
+      "coefficients_sha256_decimal_lines": "e15369d335fb07bf94f04edc53ec21cdc2f27f6b6a0f9041df29693179c6d060",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 88,
+      "degree": 77440,
+      "zeros": 358,
+      "coefficients_sha256_decimal_lines": "13548cbb792b3cc753c4228fcde328b9bc1d023be65f127763c15da0c9fed872",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 89,
+      "degree": 79210,
+      "zeros": 362,
+      "coefficients_sha256_decimal_lines": "007f5047c5ba1841ffdd13c719fc1d923e6dea141b8a0fcb91512883d066f637",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 90,
+      "degree": 81000,
+      "zeros": 366,
+      "coefficients_sha256_decimal_lines": "1f66fdb08efbc5d97247385d033c15cd55912d1fccf0eaafe3f323926c09e6d6",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 91,
+      "degree": 82810,
+      "zeros": 370,
+      "coefficients_sha256_decimal_lines": "e9039df76e05cce1163779920dcec92ea27f37704795107e03b1f3445001c80f",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 92,
+      "degree": 84640,
+      "zeros": 374,
+      "coefficients_sha256_decimal_lines": "038701efcf086f3441643c30510ec01ad6671170751a6a4ee756e2e07cc9f34b",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 93,
+      "degree": 86490,
+      "zeros": 378,
+      "coefficients_sha256_decimal_lines": "7ab2524ddbbd426bd3599b9cf08070f9f6a9fa491e1f3ff943ca582bc16bb96c",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 94,
+      "degree": 88360,
+      "zeros": 382,
+      "coefficients_sha256_decimal_lines": "4c0aa9efdcacf7e9cbe2fdb5a7cdc26760117feb16842ccd07426b93861e4bb8",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 95,
+      "degree": 90250,
+      "zeros": 386,
+      "coefficients_sha256_decimal_lines": "37fb9d54b1e762a8be475b76ed90b993cd9ceadd5a5bf14507c775b0c9a92cc8",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 96,
+      "degree": 92160,
+      "zeros": 390,
+      "coefficients_sha256_decimal_lines": "15a523ec9c8d334bb0ec74ab53b91c37796ebed818e23063b36005c34addd91a",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 97,
+      "degree": 94090,
+      "zeros": 394,
+      "coefficients_sha256_decimal_lines": "550eba6c22600dac9d20a89b0c86a60d057003d8d13b687e1cd36ebb94a8c375",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 98,
+      "degree": 96040,
+      "zeros": 398,
+      "coefficients_sha256_decimal_lines": "1e0ce6d3bc8af05f7bd070d6fa86cc495b65ab57cecffd93e1a06182248043a9",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 99,
+      "degree": 98010,
+      "zeros": 402,
+      "coefficients_sha256_decimal_lines": "d5147d6936f8b48767eeb6b6905fef470b6253338c2827eb1fade1277e34c432",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 100,
+      "degree": 100000,
+      "zeros": 406,
+      "coefficients_sha256_decimal_lines": "4df560e7183d859fe1c33078bf058e0871e455fe4c9458805c23266ac41114bb",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 101,
+      "degree": 102010,
+      "zeros": 410,
+      "coefficients_sha256_decimal_lines": "253d0a59f3a94fe66f866ad15232270cac704d034c43287c8314d5b72e8bdb65",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 102,
+      "degree": 104040,
+      "zeros": 414,
+      "coefficients_sha256_decimal_lines": "09fce2928bbf02ab6ed91274a1e081688de26f19e861a1869f504421a9914dad",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 103,
+      "degree": 106090,
+      "zeros": 418,
+      "coefficients_sha256_decimal_lines": "b715d33ecd835fb7f9c258df11aab57c842a3042613594b7146988a4be4fadb7",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 104,
+      "degree": 108160,
+      "zeros": 422,
+      "coefficients_sha256_decimal_lines": "ac606aae04c55bbe0f3ff3bb560b05e27fc6655573c3e62a1cbeab29b6f56ab7",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 105,
+      "degree": 110250,
+      "zeros": 426,
+      "coefficients_sha256_decimal_lines": "c417e464a205b70f6f6fb7d10313db2faf3b2b538b0d92346bdae4f1b511bcb5",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 106,
+      "degree": 112360,
+      "zeros": 430,
+      "coefficients_sha256_decimal_lines": "422bf03bb2b098303503109cbbd04791dfb8b358dbc75636b1eb6240d5a2d6af",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 107,
+      "degree": 114490,
+      "zeros": 434,
+      "coefficients_sha256_decimal_lines": "dac65fb318f7832036f2067b8404609ef30cf9612aa4d6caa4736b79acf0c1e8",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 108,
+      "degree": 116640,
+      "zeros": 438,
+      "coefficients_sha256_decimal_lines": "3bad876b4df8d43633f358b7ddf633cecaee83250c497cc7529f8cfd0786ac51",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 109,
+      "degree": 118810,
+      "zeros": 442,
+      "coefficients_sha256_decimal_lines": "3ce24464908b47f45c6121487fa0afc62bf0868925be3dd46141f0d482f710d4",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 110,
+      "degree": 121000,
+      "zeros": 446,
+      "coefficients_sha256_decimal_lines": "09c5ed025e801e94975917921a0752bc54060edeaaab36ecf4a29b5b8ac0a81c",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 111,
+      "degree": 123210,
+      "zeros": 450,
+      "coefficients_sha256_decimal_lines": "9305a2d090e1679b6a912287736040086291ed4b07539e5bb75b9f413fc5c7f0",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 112,
+      "degree": 125440,
+      "zeros": 454,
+      "coefficients_sha256_decimal_lines": "c447274eed3df655f1a2bbf9182ac7508b9c55aa1b6891a920aa5bf4e5dfa5c4",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 113,
+      "degree": 127690,
+      "zeros": 458,
+      "coefficients_sha256_decimal_lines": "36e056ea24d7c5ea9f3bcacdf5bb7e0d3d7ff8573bf5c02c831f1ac6fdc680f9",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 114,
+      "degree": 129960,
+      "zeros": 462,
+      "coefficients_sha256_decimal_lines": "f2d2879e3a1d90309d430722e040bd320afed174f20e6288bb7c80831b723ff0",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 115,
+      "degree": 132250,
+      "zeros": 466,
+      "coefficients_sha256_decimal_lines": "e4306610a88a334507ae4dd65c380dad66fbcabbc7fb6b017eb58003ab29a61f",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 116,
+      "degree": 134560,
+      "zeros": 470,
+      "coefficients_sha256_decimal_lines": "bb9f7bdef5934f807e454b57d150250b7897fb9b7f7e9f801c6036e2d6c08308",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 117,
+      "degree": 136890,
+      "zeros": 474,
+      "coefficients_sha256_decimal_lines": "3a26b22d059c19ab7e6eb2d2ff7232d360feb23ce5a2eb97def6b25ce29e073e",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 118,
+      "degree": 139240,
+      "zeros": 478,
+      "coefficients_sha256_decimal_lines": "468b3607171d433512268d69fd5de972c4e7c375c5819dbae65c0843a9fce947",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 119,
+      "degree": 141610,
+      "zeros": 482,
+      "coefficients_sha256_decimal_lines": "30058b2cfcb1cd007e984f6543ce7ca341524db6d3a98355900f2b8fb8ad6f70",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 120,
+      "degree": 144000,
+      "zeros": 486,
+      "coefficients_sha256_decimal_lines": "36ecb4d23f93b48cbe9b59d4d43a530ede9980204e2b4ca9d41a8d81bf78190e",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 121,
+      "degree": 146410,
+      "zeros": 490,
+      "coefficients_sha256_decimal_lines": "3a8649e5c11c854b58f07f5f8b8435e0c9e01f2e1606558d33557c8ddf88f2de",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 122,
+      "degree": 148840,
+      "zeros": 494,
+      "coefficients_sha256_decimal_lines": "6ab12e80bf24f0c804e821a6c58232fc0d9ebf4ef384d6d82d4ab4b33e7af83f",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 123,
+      "degree": 151290,
+      "zeros": 498,
+      "coefficients_sha256_decimal_lines": "1be64d78acca8d141885ff91300901b3ac8ff3b63050ec1437cfcaf606d4fc79",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 124,
+      "degree": 153760,
+      "zeros": 502,
+      "coefficients_sha256_decimal_lines": "f209f593424e50ac6a3ab618f38b3d198451cbda6612605b82e1f2775226873f",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 125,
+      "degree": 156250,
+      "zeros": 506,
+      "coefficients_sha256_decimal_lines": "36f5021c3822d5aacb9c3cacbd51e19a8911be2961b7219223078614bba54ca6",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 126,
+      "degree": 158760,
+      "zeros": 510,
+      "coefficients_sha256_decimal_lines": "aca2931d328f54704291310b9e133c826427981714b95cfdd98e23b3f00be911",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 127,
+      "degree": 161290,
+      "zeros": 514,
+      "coefficients_sha256_decimal_lines": "4b1a05362aba52a6322611bbad54cf42c6376298a4f146c1d56fc872e9af271d",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 128,
+      "degree": 163840,
+      "zeros": 518,
+      "coefficients_sha256_decimal_lines": "fec8154135a2be21addc98fec5ece303ddd005761cd7100d07b43378362e8b3a",
+      "modular_cross_checks": [
+        {
+          "prime": 1000000007,
+          "evaluation_at_2": 300537311
+        },
+        {
+          "prime": 1000000009,
+          "evaluation_at_2": 669105484
+        }
+      ]
+    },
+    {
+      "n": 129,
+      "degree": 166410,
+      "zeros": 522,
+      "coefficients_sha256_decimal_lines": "58b51291414bfbd8f88c4bf966b6eb45c16a6b6691871597a0908e5546fed13f",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 130,
+      "degree": 169000,
+      "zeros": 526,
+      "coefficients_sha256_decimal_lines": "4b19efc5277dbc83606b250e23ff74edca2c26f528187df6733dcaff60274889",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 131,
+      "degree": 171610,
+      "zeros": 530,
+      "coefficients_sha256_decimal_lines": "434768a47fffacd44b68aad2ad3a5202ad7a6ee14581265bace6dde4007a075f",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 132,
+      "degree": 174240,
+      "zeros": 534,
+      "coefficients_sha256_decimal_lines": "e09fb684328798c0f6819f4b266f3486c1cfbbc6b2ee445c832d23880498eaa3",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 133,
+      "degree": 176890,
+      "zeros": 538,
+      "coefficients_sha256_decimal_lines": "fb0611b84eb98320f9e81a29c2dcdb1dec0cca6397b3fc5f8a5045eb6c825b4d",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 134,
+      "degree": 179560,
+      "zeros": 542,
+      "coefficients_sha256_decimal_lines": "8d9b9cb963315955b1ae2e78fd5ef4010255738f63ec7de9bf09bb8a2554f357",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 135,
+      "degree": 182250,
+      "zeros": 546,
+      "coefficients_sha256_decimal_lines": "df9a1097343becae239b254bd05d4b5e5fc7be59cec4645f093ba115a1838502",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 136,
+      "degree": 184960,
+      "zeros": 550,
+      "coefficients_sha256_decimal_lines": "5b882bfaaadb0169da2fcc2626b0599e74646dbc2cb0c05a3a15ce49983f877a",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 137,
+      "degree": 187690,
+      "zeros": 554,
+      "coefficients_sha256_decimal_lines": "e1c504deaab4df20407525df0c4ff457a87fcdc657baf09faac3ec19945e2e6e",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 138,
+      "degree": 190440,
+      "zeros": 558,
+      "coefficients_sha256_decimal_lines": "4331520e4cd39e410938d8dea59e01f2860e10958bb1e4bfe1d08416b5522523",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 139,
+      "degree": 193210,
+      "zeros": 562,
+      "coefficients_sha256_decimal_lines": "b4f9bd45a5b25efd659b3f66bea847f1c622c18e485e3f30fb97afae6f5c98c7",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 140,
+      "degree": 196000,
+      "zeros": 566,
+      "coefficients_sha256_decimal_lines": "b4dfee87f87432f37bfded387728280b0a5980b6d8328c7bf532c1c108c559f2",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 141,
+      "degree": 198810,
+      "zeros": 570,
+      "coefficients_sha256_decimal_lines": "07fb568a34d74d5cf07008c18c28b8b03ab8f9d81553a00f9e2138231f2266c4",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 142,
+      "degree": 201640,
+      "zeros": 574,
+      "coefficients_sha256_decimal_lines": "f4a8ec41e56e1212215dbfdea22fd57643dbe3953d3f016dc25e6d6804e86b3c",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 143,
+      "degree": 204490,
+      "zeros": 578,
+      "coefficients_sha256_decimal_lines": "e1f93813ca35af624ab46e937b878438d89a8b884708bca16103b9e34104fa0d",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 144,
+      "degree": 207360,
+      "zeros": 582,
+      "coefficients_sha256_decimal_lines": "34c2a22dd6a87ad82a136c73e1879ac8fc91a1da99a00c17128c8ad86c8938e1",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 145,
+      "degree": 210250,
+      "zeros": 586,
+      "coefficients_sha256_decimal_lines": "edb0afb13874fd3cd62660b7e0e706a0e0309acc79d9528dc34685049294f9e8",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 146,
+      "degree": 213160,
+      "zeros": 590,
+      "coefficients_sha256_decimal_lines": "159d94e888914a03971719fba2dddf6cd817c99a395a2e0b83518dcc20ff12f5",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 147,
+      "degree": 216090,
+      "zeros": 594,
+      "coefficients_sha256_decimal_lines": "717b5dacd70a863c935fee4bacfe242685f3b3eacd00c3b694d3367e015d413b",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 148,
+      "degree": 219040,
+      "zeros": 598,
+      "coefficients_sha256_decimal_lines": "fca1598106f5f6a6de32363ac838f661d3e7ce4ec88842fe85c46b0de0fe1bab",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 149,
+      "degree": 222010,
+      "zeros": 602,
+      "coefficients_sha256_decimal_lines": "04261c586a51ab4ca18b178493db1f34cae810f7720d22fcc7c9c44a92f6e0a2",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 150,
+      "degree": 225000,
+      "zeros": 606,
+      "coefficients_sha256_decimal_lines": "a34f57fc6c4aac905ba8f6ee557fe2db9101a5225fcac64b391c0b3a3d281a2b",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 151,
+      "degree": 228010,
+      "zeros": 610,
+      "coefficients_sha256_decimal_lines": "8dd0a39cc6633e4a517ae5a94e7c8ff42369943cd8e00193a1b506ff2e52c804",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 152,
+      "degree": 231040,
+      "zeros": 614,
+      "coefficients_sha256_decimal_lines": "13e8558b095dd4d2d636a3d707be4260806729bcf6a0125b7e87a2399e8db005",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 153,
+      "degree": 234090,
+      "zeros": 618,
+      "coefficients_sha256_decimal_lines": "aaa4401a8fee828adeeae82402c0ff265fbe8fb8de40968189c13265100af82b",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 154,
+      "degree": 237160,
+      "zeros": 622,
+      "coefficients_sha256_decimal_lines": "ba090ae063eb9a90f5bb949ba17ed63eafd066396e37cf42bd093b96baab95f5",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 155,
+      "degree": 240250,
+      "zeros": 626,
+      "coefficients_sha256_decimal_lines": "cbc5c440aca210050f3581804a699b14d17f16a452189301ba0a9462c66f6a8e",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 156,
+      "degree": 243360,
+      "zeros": 630,
+      "coefficients_sha256_decimal_lines": "6f327d296af514cf4816c87d1571d20b5f0aab5083eaaf07df91da1a4d135f68",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 157,
+      "degree": 246490,
+      "zeros": 634,
+      "coefficients_sha256_decimal_lines": "5dce586b01608fad94cac6efe07104f1c5832e34f5ca3764bc571680a0d41026",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 158,
+      "degree": 249640,
+      "zeros": 638,
+      "coefficients_sha256_decimal_lines": "2e4baf59946ee445865b3fd1ab2c435497283ad3ca86b70f470713ab92d92c54",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 159,
+      "degree": 252810,
+      "zeros": 642,
+      "coefficients_sha256_decimal_lines": "9b276ae4113075027583d562b9abee27bfbfe1f53758a85b71878d9a1b74f97e",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 160,
+      "degree": 256000,
+      "zeros": 646,
+      "coefficients_sha256_decimal_lines": "80bc4653c7c9c53415ba892b8b3224f3b989823eee6da6b9f677751f49283a93",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 161,
+      "degree": 259210,
+      "zeros": 650,
+      "coefficients_sha256_decimal_lines": "ad799b2e7f094d4d7c46695181857443c42f25da12245d8b0989dd8c62475c37",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 162,
+      "degree": 262440,
+      "zeros": 654,
+      "coefficients_sha256_decimal_lines": "9e2dacddfdf56ac0247180b212eeb570347e08e5bb0d03c22bc816607df62bc6",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 163,
+      "degree": 265690,
+      "zeros": 658,
+      "coefficients_sha256_decimal_lines": "bcc79cd4d153461a394f160a9276c9e15f116bd3df40dcd240d0f81e47fab377",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 164,
+      "degree": 268960,
+      "zeros": 662,
+      "coefficients_sha256_decimal_lines": "956cc882b840624e8e5b8576d1e1d7e9d12d9ec6874571b493f51392c72f78d1",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 165,
+      "degree": 272250,
+      "zeros": 666,
+      "coefficients_sha256_decimal_lines": "2b4b3363d24f08fb024025e44e5138fd6421ce967c9248f119feca9183f4f6fc",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 166,
+      "degree": 275560,
+      "zeros": 670,
+      "coefficients_sha256_decimal_lines": "222235bfdc58b0f1537e35fdd38a6d19dd33e1d931a78f51fbdc9782780c3be6",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 167,
+      "degree": 278890,
+      "zeros": 674,
+      "coefficients_sha256_decimal_lines": "d99cff5a4770174db080fb97dbe485d4d78c4cf238830ac6d58be180867dc2ef",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 168,
+      "degree": 282240,
+      "zeros": 678,
+      "coefficients_sha256_decimal_lines": "0c1b1c4f3e3022e4e827df5e897d002f971738326062659d51b861b073a7004f",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 169,
+      "degree": 285610,
+      "zeros": 682,
+      "coefficients_sha256_decimal_lines": "d8fdf08322bb0365c3bb0acd63ddf633c37817f47477b80e72a27edc58c70473",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 170,
+      "degree": 289000,
+      "zeros": 686,
+      "coefficients_sha256_decimal_lines": "f3bc7ce72e3d0e431163293e6ee4d39b6aec8613f69e434e6b58eb3abc60233f",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 171,
+      "degree": 292410,
+      "zeros": 690,
+      "coefficients_sha256_decimal_lines": "e4825ddc4d53de92cffd562f3dabbdc40565acea3c92416d53811f6428c2e843",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 172,
+      "degree": 295840,
+      "zeros": 694,
+      "coefficients_sha256_decimal_lines": "455ca90489c4b98c9f64aebb5aed041746ee97d292627cab2396a1299140740b",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 173,
+      "degree": 299290,
+      "zeros": 698,
+      "coefficients_sha256_decimal_lines": "50865ce620c3ce675263bea3ef42e510f9f8b657f245de9135cdbf260e88dba4",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 174,
+      "degree": 302760,
+      "zeros": 702,
+      "coefficients_sha256_decimal_lines": "bde46862afd07ea119bc8662fa85bbcd2e83eb86254806b9686c9d2b1a347260",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 175,
+      "degree": 306250,
+      "zeros": 706,
+      "coefficients_sha256_decimal_lines": "9a0657b9be70cc2c2bd1853b10ea08e80055f89dd055b8fcfcb135c9f8d4e81c",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 176,
+      "degree": 309760,
+      "zeros": 710,
+      "coefficients_sha256_decimal_lines": "e4d52645b3324a89c6b8bc700948e9378620a1b1b37c525af8d2e3c39d5002f2",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 177,
+      "degree": 313290,
+      "zeros": 714,
+      "coefficients_sha256_decimal_lines": "fbfeadd283624d22569f5b12439ba5133bfcff2555da68809543adfd247d85e0",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 178,
+      "degree": 316840,
+      "zeros": 718,
+      "coefficients_sha256_decimal_lines": "f6839059ec092bdf65bfa97a5e3ec7ad93b29cf814706c8114be354a9883495c",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 179,
+      "degree": 320410,
+      "zeros": 722,
+      "coefficients_sha256_decimal_lines": "ffa2d2f1847b68e3599b72c6d75be79c52cf165da1be037f399da43bc2e701d9",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 180,
+      "degree": 324000,
+      "zeros": 726,
+      "coefficients_sha256_decimal_lines": "f46c99aaff0680c5f8d11266ad207db458dc99a6d87dbeb612531452acabdada",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 181,
+      "degree": 327610,
+      "zeros": 730,
+      "coefficients_sha256_decimal_lines": "157ab795c219fbc31b568c2a35d3e90b10f831aa6c39ddfd023f3e55e4095cc4",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 182,
+      "degree": 331240,
+      "zeros": 734,
+      "coefficients_sha256_decimal_lines": "3564a32dd4b03ca4425adcd48c02d6936c2e0f1c1e426813607a72c1aee9e544",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 183,
+      "degree": 334890,
+      "zeros": 738,
+      "coefficients_sha256_decimal_lines": "d8d5f29034b076507cf15ef531e709bc7a5423db53dd1cc0d387378cdb1abef7",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 184,
+      "degree": 338560,
+      "zeros": 742,
+      "coefficients_sha256_decimal_lines": "7c80fdc571ff4bcea4e5989ef67827fa38f3dd9a0c83701d5243af06461a8082",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 185,
+      "degree": 342250,
+      "zeros": 746,
+      "coefficients_sha256_decimal_lines": "4b22cf41a9f9a58cc7dcd45221fd3404750e04a67769fb6fe07688c51d296c77",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 186,
+      "degree": 345960,
+      "zeros": 750,
+      "coefficients_sha256_decimal_lines": "841222be5fdcbf9e743979bb93d15bbec16c7f61564be562de7bfaaa8e4ccea2",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 187,
+      "degree": 349690,
+      "zeros": 754,
+      "coefficients_sha256_decimal_lines": "7990c48a9cdb8ecf9d658452cc58b955c101b80633d8cdd26ff6d68336b4deca",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 188,
+      "degree": 353440,
+      "zeros": 758,
+      "coefficients_sha256_decimal_lines": "e9530ebb6334f531d93d4ce8ca6d78864fb4f026870fa05cfed98e80cb2590b5",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 189,
+      "degree": 357210,
+      "zeros": 762,
+      "coefficients_sha256_decimal_lines": "8b5ddaf30b29febfe892302eae096e5becc8d4606a310c3d617f0ab2a5194066",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 190,
+      "degree": 361000,
+      "zeros": 766,
+      "coefficients_sha256_decimal_lines": "6e95a021fbbb174dba9a3e6f6e545e38cb3eb55e557661503552ffe43814b168",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 191,
+      "degree": 364810,
+      "zeros": 770,
+      "coefficients_sha256_decimal_lines": "050a44b77b862453af7c58d55bfe3c69df2e169ee2218da049790268b49cfb62",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 192,
+      "degree": 368640,
+      "zeros": 774,
+      "coefficients_sha256_decimal_lines": "c395cfb958fda3b0f8cd4d5c1d96ac8bc0c4c68890fb90161df70443beb02e12",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 193,
+      "degree": 372490,
+      "zeros": 778,
+      "coefficients_sha256_decimal_lines": "66ad1a7e7ef35ac6da61c087f6379106a22e4ba144bb11f414cf468c2a6872e0",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 194,
+      "degree": 376360,
+      "zeros": 782,
+      "coefficients_sha256_decimal_lines": "e0b94640a6e1308811911b8edebea77a1401da6cb8fb2e581e964b0eba91e14e",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 195,
+      "degree": 380250,
+      "zeros": 786,
+      "coefficients_sha256_decimal_lines": "d379585f2ee46264e1b74ab161803f0f5e36a33feaef43fe9482def30f1fbb9d",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 196,
+      "degree": 384160,
+      "zeros": 790,
+      "coefficients_sha256_decimal_lines": "97e6c95c549ea68167dce82df53d197ed091bcf041b07a88036bc4391e7ca888",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 197,
+      "degree": 388090,
+      "zeros": 794,
+      "coefficients_sha256_decimal_lines": "0c1f710f2df050414119b7694cc1382aa55e162e42c5ffd5698dba03e4219bf4",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 198,
+      "degree": 392040,
+      "zeros": 798,
+      "coefficients_sha256_decimal_lines": "470e3c4c40611ecb13a02f7800a9c75c075baeff2079ba18bad97bef6cbe3681",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 199,
+      "degree": 396010,
+      "zeros": 802,
+      "coefficients_sha256_decimal_lines": "041dad7a103f6db404911f01cb88308858e6edf7bca4fdf8e7c39ec9d25bbb83",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 200,
+      "degree": 400000,
+      "zeros": 806,
+      "coefficients_sha256_decimal_lines": "a58baa288f95e0e31164cddefd7af41fa669356e3d8cc216b0c3708690252214",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 201,
+      "degree": 404010,
+      "zeros": 810,
+      "coefficients_sha256_decimal_lines": "4937d7e0b26cd1207a8f28ab84cc6ec5c2b0923ecd850c03de88ddf0c529575b",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 202,
+      "degree": 408040,
+      "zeros": 814,
+      "coefficients_sha256_decimal_lines": "7806c6e7bf48878b7e70c3b50d6c397551dc4d2c02fe89105fe9958906d32e84",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 203,
+      "degree": 412090,
+      "zeros": 818,
+      "coefficients_sha256_decimal_lines": "c6b544249fea40c81d2d47f2b972a28ba50725d323424052b76269835d7ba2b3",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 204,
+      "degree": 416160,
+      "zeros": 822,
+      "coefficients_sha256_decimal_lines": "a86fa2f2acf01deb6393d2f4870e0a50e08b5aeffbfdd009264f9dba53d72973",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 205,
+      "degree": 420250,
+      "zeros": 826,
+      "coefficients_sha256_decimal_lines": "2137412d8b7a8d3a3a30bf53abeedda98ba6ebc1d9ea66e6a90d6c9072ed4924",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 206,
+      "degree": 424360,
+      "zeros": 830,
+      "coefficients_sha256_decimal_lines": "0af792c0a260142602af5911a1ed8895eb7a945f5578e4c726899bba122c11d9",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 207,
+      "degree": 428490,
+      "zeros": 834,
+      "coefficients_sha256_decimal_lines": "b6dd84be22b336c1de58c46a24bd0ab658ee5b467565f3e6f29bdc1baf1fc9e4",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 208,
+      "degree": 432640,
+      "zeros": 838,
+      "coefficients_sha256_decimal_lines": "796e0562c376b58442fcc668fc03371d46edf01f5f5a2dac4828c6e1ab778633",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 209,
+      "degree": 436810,
+      "zeros": 842,
+      "coefficients_sha256_decimal_lines": "91365d8d6e56965d9cccceea8e489b6d435c1f8221ae94ef3898134b4fa5b0b7",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 210,
+      "degree": 441000,
+      "zeros": 846,
+      "coefficients_sha256_decimal_lines": "7b1e903659ebae2aee97ca3ec7376e50b0c73b0508bc32f246739e237ecb48b4",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 211,
+      "degree": 445210,
+      "zeros": 850,
+      "coefficients_sha256_decimal_lines": "05ace648ef645bd9e1cc76d01a1ed286d0bf18436049075ef58b795af07cee6d",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 212,
+      "degree": 449440,
+      "zeros": 854,
+      "coefficients_sha256_decimal_lines": "5f7e9d8189a2adac2069573402f942e5e6f93c1f989fc0a0fca8079322e4bb8b",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 213,
+      "degree": 453690,
+      "zeros": 858,
+      "coefficients_sha256_decimal_lines": "ddbc06be915adb3cb47f83979954a1cc8d00f0d767e2d814fd108d2a734cf262",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 214,
+      "degree": 457960,
+      "zeros": 862,
+      "coefficients_sha256_decimal_lines": "9d82561f06da237ca260ebf2c87c95edc9ec3f19e379ef5766c315cb2cc0d8f9",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 215,
+      "degree": 462250,
+      "zeros": 866,
+      "coefficients_sha256_decimal_lines": "3b1fd277d76154785aaf8446c89abedd34fd93fc97a7b2614f5cfe68d2461f6e",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 216,
+      "degree": 466560,
+      "zeros": 870,
+      "coefficients_sha256_decimal_lines": "50d21cbfe2a02043e9d744f02af12ed589f413fd40b3ee69ef31780c42b511a4",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 217,
+      "degree": 470890,
+      "zeros": 874,
+      "coefficients_sha256_decimal_lines": "3ed8ef43b7544fa3090736d83bda9b4d419d2076522b9e68da2a53b1e5061c39",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 218,
+      "degree": 475240,
+      "zeros": 878,
+      "coefficients_sha256_decimal_lines": "aec7ad444a604d62e3c0658dad7a99f9f0935bb8f2bc58906bd4c455e5339ea0",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 219,
+      "degree": 479610,
+      "zeros": 882,
+      "coefficients_sha256_decimal_lines": "32ccbafaef3091ed9c2acb6a3f287b2a5f163b31fa49659b73ac8e6e8486e8c9",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 220,
+      "degree": 484000,
+      "zeros": 886,
+      "coefficients_sha256_decimal_lines": "8ede6d7972f72fc96fc75c3a7c3f617fcb402fca5b405a89986c83b5991cc4c4",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 221,
+      "degree": 488410,
+      "zeros": 890,
+      "coefficients_sha256_decimal_lines": "57d70dd7b1c8af30326301e52bec423455cc6510916c76307e79a6e167889d56",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 222,
+      "degree": 492840,
+      "zeros": 894,
+      "coefficients_sha256_decimal_lines": "93280708ca226fb76aa623355f1ae5515b5b87c4d81409dea125757f0b44ee43",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 223,
+      "degree": 497290,
+      "zeros": 898,
+      "coefficients_sha256_decimal_lines": "e16e9efe672119ddb5fb93647eceae79a2db4b8a304a28f9bd4f5d891a5cd958",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 224,
+      "degree": 501760,
+      "zeros": 902,
+      "coefficients_sha256_decimal_lines": "f4c246090ab64c55ad2afb5bc4787d5f503ab644243c8be84c3aa962760bec30",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 225,
+      "degree": 506250,
+      "zeros": 906,
+      "coefficients_sha256_decimal_lines": "86e8aaa83810eb485c785602fb5f8b9d17461fca1b1e634c8e976d600fbd2456",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 226,
+      "degree": 510760,
+      "zeros": 910,
+      "coefficients_sha256_decimal_lines": "5387a8b74c6f920e2a55c65d703a711de74f239d77898ba3003c219e4a4e5fae",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 227,
+      "degree": 515290,
+      "zeros": 914,
+      "coefficients_sha256_decimal_lines": "5af301c300b07ac0edcafdae006331ce242ab783d10ce30ac7733c1ec7878b1c",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 228,
+      "degree": 519840,
+      "zeros": 918,
+      "coefficients_sha256_decimal_lines": "29485760efdaab2d2f4cde44796986ce5240ea2de20534c7b48035a6e5e599f6",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 229,
+      "degree": 524410,
+      "zeros": 922,
+      "coefficients_sha256_decimal_lines": "4e52bf13323ae106ac5a10c3a13f93d94d7bd71e5f1399c78aae32def9476cd9",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 230,
+      "degree": 529000,
+      "zeros": 926,
+      "coefficients_sha256_decimal_lines": "d1a755e7058317f5124e7b54608972d3fa7021a7744a863db649d88c7fd61044",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 231,
+      "degree": 533610,
+      "zeros": 930,
+      "coefficients_sha256_decimal_lines": "bf62c9731cf6ad4411945e60d1dbc6e1a9c19ac8d1e74a1b0f8323d5632eb4f5",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 232,
+      "degree": 538240,
+      "zeros": 934,
+      "coefficients_sha256_decimal_lines": "0089f51ab840b29064fc931b98b3709a1c39dc519cc5ea9205a588b3e8d4dde8",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 233,
+      "degree": 542890,
+      "zeros": 938,
+      "coefficients_sha256_decimal_lines": "a4041018c9236c45aad30e0449e0b0ddc5596aaf088c7dc1124d7ddc4f836631",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 234,
+      "degree": 547560,
+      "zeros": 942,
+      "coefficients_sha256_decimal_lines": "2d5f40af8c540a447bfff427be68af616f109408a313613eba98004eef7d111e",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 235,
+      "degree": 552250,
+      "zeros": 946,
+      "coefficients_sha256_decimal_lines": "57919b7c5459787b04ee2904630c86cc7124d80eeccaf070ecced2c85a8a41c1",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 236,
+      "degree": 556960,
+      "zeros": 950,
+      "coefficients_sha256_decimal_lines": "7245c0617962bc37615dac6f015d9b591107f3858e1892372db5e91bfd0534bf",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 237,
+      "degree": 561690,
+      "zeros": 954,
+      "coefficients_sha256_decimal_lines": "ba5c0fd00f0f914d5348d52bbac5312897d064ee3c6d069d49dd9f785f42324b",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 238,
+      "degree": 566440,
+      "zeros": 958,
+      "coefficients_sha256_decimal_lines": "0b17681fd718a58c9cede79862b2878984730258444f791fa57e5e0e1a37043b",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 239,
+      "degree": 571210,
+      "zeros": 962,
+      "coefficients_sha256_decimal_lines": "437fa9fa7bd40ab37cddadc6e3f1ca06ee8a8d24419e5e8add45f81a0ec06f28",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 240,
+      "degree": 576000,
+      "zeros": 966,
+      "coefficients_sha256_decimal_lines": "0d71568a59b5ee670cc2c8d95ef2497d48197803249c21ab5540d2a026c697dd",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 241,
+      "degree": 580810,
+      "zeros": 970,
+      "coefficients_sha256_decimal_lines": "d5e295b0f8f1b7db9c169dccd8502e27b93a79e7317024c478351fa599e0d99a",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 242,
+      "degree": 585640,
+      "zeros": 974,
+      "coefficients_sha256_decimal_lines": "fb26211a60ba9c9548c002fc0d2cd939729786241a664822c04719f9db714ba4",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 243,
+      "degree": 590490,
+      "zeros": 978,
+      "coefficients_sha256_decimal_lines": "6dc1de58c24d526e3478ec0779b708b9b6f37d6554a43bd017b23769a02f61fe",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 244,
+      "degree": 595360,
+      "zeros": 982,
+      "coefficients_sha256_decimal_lines": "a486e20eda0e570dc672cfd00ede86d1db4dc9be38b6a96dc14082ae7f71b9fe",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 245,
+      "degree": 600250,
+      "zeros": 986,
+      "coefficients_sha256_decimal_lines": "1be9597e183ccfa22180829cecce550472800588c0f8c8f424b4719c690d612c",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 246,
+      "degree": 605160,
+      "zeros": 990,
+      "coefficients_sha256_decimal_lines": "51094d94e322505be7edd4da62e5397eec65b97ad3ab0e2fc04a86a995b1576f",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 247,
+      "degree": 610090,
+      "zeros": 994,
+      "coefficients_sha256_decimal_lines": "6f0da9e76914216bbd0942a800818182707cd279aeb14bd3dc2256b3aab4f55e",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 248,
+      "degree": 615040,
+      "zeros": 998,
+      "coefficients_sha256_decimal_lines": "607b4d0f99169d8a100d51ece8306eeb17acd3e46d5b0ba5744a03537935a565",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 249,
+      "degree": 620010,
+      "zeros": 1002,
+      "coefficients_sha256_decimal_lines": "917cb5f03ab8bed27bbadf7aa45fc75b1e31e6e6ebda073e4792b37b6470108d",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 250,
+      "degree": 625000,
+      "zeros": 1006,
+      "coefficients_sha256_decimal_lines": "d3dc0475a6fe698ccc469fdd4eb4faf4d4a5e06a41f1f7417b4d6b124fa2704a",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 251,
+      "degree": 630010,
+      "zeros": 1010,
+      "coefficients_sha256_decimal_lines": "ea96f3be97a4919bbc600c06d3a8dcc709436cd00df325c4afc37373e601dd8c",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 252,
+      "degree": 635040,
+      "zeros": 1014,
+      "coefficients_sha256_decimal_lines": "b6154fd1524cde8bd8e74f383238f7c1db09e98ce956bdd358f1eb3919516f8d",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 253,
+      "degree": 640090,
+      "zeros": 1018,
+      "coefficients_sha256_decimal_lines": "b1685b2d74bb20f13a77c7d0ac4780717d70ec2af7750f308ba75c775964ba26",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 254,
+      "degree": 645160,
+      "zeros": 1022,
+      "coefficients_sha256_decimal_lines": "26088cae70f3b5e99ec184c2c20c5517f0b496dfa4abf9c1f531f16a589d0cc9",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 255,
+      "degree": 650250,
+      "zeros": 1026,
+      "coefficients_sha256_decimal_lines": "3d00e15929f8a219964cf54ac0e3c3e988b0d68940edbd764c3317c2915071f2",
+      "modular_cross_checks": []
+    },
+    {
+      "n": 256,
+      "degree": 655360,
+      "zeros": 1030,
+      "coefficients_sha256_decimal_lines": "fd9c73b39a97e00f64eba46490342d850b6f0ee80422a670f16350e6a604ef25",
+      "modular_cross_checks": [
+        {
+          "prime": 1000000007,
+          "evaluation_at_2": 586633503
+        },
+        {
+          "prime": 1000000009,
+          "evaluation_at_2": 491728031
+        }
+      ]
+    }
+  ]
+}

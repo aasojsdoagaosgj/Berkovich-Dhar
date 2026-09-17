@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "max_degree": 300,
+  "signs_by_residue": [
+    1,
+    -1,
+    1
+  ],
+  "coefficient_sha256": "f28d3314412576ee3c274bac6eec8e095659b03db3d790fc47d7bb9af5351ee1",
+  "rational_checks": {
+    "phase_margin": true,
+    "constant_error": true,
+    "error_ratio_at_300": true
+  },
+  "source_sha256": "562c2e99ec657d2de85526dc458a0989c5c6c8d772339ef74a2e046f2cb89cd2",
+  "scope": "Exact coefficients through degree 300 and elementary scalar inequalities used in quartic/INFINITE_SIGNS.md."
+}

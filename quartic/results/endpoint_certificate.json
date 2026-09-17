@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": {
+    "exp6_exceeds_400": true,
+    "k2_bound": true,
+    "g_lower": true,
+    "g_upper": true,
+    "third_derivative": true,
+    "whole_root_arc_decay": true,
+    "real_phase": true,
+    "residue2_amplitude": true,
+    "saddle_tau_square": true
+  },
+  "source_sha256": "ed3e109480f4ef09eba1cb677983ea075366fb583178391d58c2f8121ff992d0",
+  "dependency_sha256": {
+    "certify_infinite.py": "562c2e99ec657d2de85526dc458a0989c5c6c8d772339ef74a2e046f2cb89cd2"
+  },
+  "scope": "Scalar margins only; the uniform asymptotic proof is written in ENDPOINT_PROOF.md."
+}

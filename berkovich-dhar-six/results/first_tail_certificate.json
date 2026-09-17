@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "polynomial_identities": [
+    "F4 numerator",
+    "F5 numerator",
+    "P in u=g-h"
+  ],
+  "series_checks_through": 80,
+  "positive_kernel_identity": true,
+  "kernel_bounds": true,
+  "source_sha256": "7aa28248014377eb0d5bc0fccde50f4b4e7be64bcff1ab527063cc5c0e3bc9c6",
+  "scope": "Polynomial identities are exact; infinite coefficientwise inequalities follow from the written positive expansions."
+}

@@ -1,0 +1,102 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "p": 3,
+      "power": 5,
+      "expected_signs": [
+        1,
+        -1,
+        1
+      ],
+      "exceptional_zeros": [],
+      "max_degree": 2000,
+      "coefficient_sha256": "5dca92f2164452d4cf8fb8446c90d33efb06b862a5fa974cb8775afbfcc9bfd4"
+    },
+    {
+      "p": 3,
+      "power": 6,
+      "expected_signs": [
+        1,
+        -1,
+        1
+      ],
+      "exceptional_zeros": [],
+      "max_degree": 2000,
+      "coefficient_sha256": "028a5c8de5fee2051ed0fe062cb847f3c477ea45dc74affe3817e58fc5dbd733"
+    },
+    {
+      "p": 3,
+      "power": 7,
+      "expected_signs": [
+        1,
+        -1,
+        1
+      ],
+      "exceptional_zeros": [],
+      "max_degree": 2000,
+      "coefficient_sha256": "26c9e8ec1af199c093ab21cb1ae049530aff647c5bcdf6aeaa130403221e928c"
+    },
+    {
+      "p": 3,
+      "power": 8,
+      "expected_signs": [
+        1,
+        -1,
+        1
+      ],
+      "exceptional_zeros": [],
+      "max_degree": 2000,
+      "coefficient_sha256": "481a04fae71fcc4609046d86a4e4edec99df62f100fb5c2fc34c81cb23b54175"
+    },
+    {
+      "p": 5,
+      "power": 2,
+      "expected_signs": [
+        1,
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "exceptional_zeros": [
+        9
+      ],
+      "max_degree": 2000,
+      "coefficient_sha256": "64e6681e0a897904d8ae6bfef2e4ef60701bbebb2b4bd6038476c1828c8a1b6e"
+    },
+    {
+      "p": 5,
+      "power": 3,
+      "expected_signs": [
+        1,
+        -1,
+        0,
+        1,
+        0
+      ],
+      "exceptional_zeros": [],
+      "max_degree": 2000,
+      "coefficient_sha256": "e1a426ec2b4634e08c702f9532df068f3ab759c5bd2218e74f77087107747adb"
+    }
+  ],
+  "rational_checks": {
+    "e_pi_over_five": true,
+    "e_pi": true,
+    "first_error_constant": true,
+    "exponential_sum": true,
+    "second_error_exponent": true,
+    "third_error_exponent": true,
+    "constant_error": true,
+    "bessel_main_prefactor": true,
+    "phase_margin_mod3": true,
+    "phase_margin_mod5": true,
+    "X_lower": true,
+    "X_at_2000": true,
+    "power_at_2000": true,
+    "exp31": true,
+    "error_ratio": true
+  },
+  "source_sha256": "83d7aaebb563f57554107be33de6d3926d49805265b04a52adb63292e9203b43",
+  "scope": "Finite signs and elementary bounds; analytic dependencies are in INFINITE_SIGNS.md."
+}
